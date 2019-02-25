@@ -23,17 +23,17 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Todo One",
+          title: "It's as easy as typing, hitting submit...",
           completed: false
         },
         {
           id: 2,
-          title: "Todo Two",
-          completed: true
+          title: "Checking a checkbox...",
+          completed: false
         },
         {
           id: 3,
-          title: "Todo Three",
+          title: "And or clicking the red x to delete.",
           completed: false
         }
       ]
@@ -60,6 +60,11 @@ export default {
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+}
+
+#app {
+  margin: 20px;
+  box-shadow: 1px 1px 6px #bbb;
 }
 
 .btn {
