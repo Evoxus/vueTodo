@@ -1,4 +1,4 @@
-# crashcourse
+#Vue Todo List 
 
 ## Project setup
 ```
@@ -16,6 +16,7 @@ npm run build
 ```
 
 ### Run your tests
+#### Need to write tests still
 ```
 npm run test
 ```
@@ -29,6 +30,3 @@ npm run lint
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
